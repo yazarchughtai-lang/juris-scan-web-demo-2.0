@@ -34,7 +34,7 @@ export const SkillTiles: React.FC<SkillTilesProps> = ({ onNavigate, isUrdu }) =>
     {
       id: 'compliance',
       title: 'Compliance Checker',
-      subtitle: 'Verify against Contract Act 1872, Companies Act 2017',
+      subtitle: 'Cross-Refrence Clauses and Compliance Check',
       icon: <ShieldCheck className="w-8 h-8 text-green-600 dark:text-green-400" />,
       action: 'Start Check',
       target: 'contract-analysis' as ViewState // Reuse flow for demo
